@@ -73,13 +73,13 @@ GroupMe bot to use our Heroku app to process group messages.
 1. Deploy the app by pushing it to the `heroku` remote: `git push heroku master`
 1. Once the app is finished deploying, you should see a deployment URL. It
    should be in the form `https://YOUR-APP-NAME.herokuapp.com/` (e.g., 
-   `https://groupme-magicconch-python.herokuapp.com/`). If you do not see the 
+   `https://groupme-magicconch-nodejs.herokuapp.com/`). If you do not see the 
    URL, try executing `heroku info` and make note of the "Web URL". **Make note 
    of the new Web URL since it will be used later**
 
 Example:
 
-Again, just use your own unique app name instead of "groupme-magicconch-python".
+Again, just use your own unique app name instead of "groupme-magicconch-nodejs".
 
 ```console
 $ git clone https://github.com/stuejho/groupme-magicconch-nodejs
