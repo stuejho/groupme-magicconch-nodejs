@@ -2,10 +2,18 @@
   "name": "magicconch-nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "appjs",
   "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
